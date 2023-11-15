@@ -1,0 +1,6 @@
+# depslib dependency file v1.0
+1700036712 source:d:\nadosh\text-editor\shapess\main.cpp
+	<iostream>
+	<graphics.h>
+	<string.h>
+
