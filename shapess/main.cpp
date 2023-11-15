@@ -111,7 +111,7 @@ int main()
 
     for(int i=0; i<x; i++){
         char str[100];
-        cout<< "please enter shape" << " [" << i <<"]" <<  endl;
+        cout<< "please enter shape" << " [" << i+1 <<"]" <<  endl;
         cin >> str;
         if (strcmp(str, "line")==0){
             int x,y,z,l;
