@@ -122,6 +122,18 @@ public:
             return imaginary;
         }
     }
+int operator [] (char * str)
+    {
+        if (strcmp(str, "real") == 0)
+        {
+            return real;
+        }
+        else if (strcmp(str, "imaginary") == 0)
+        {
+            return imaginary;
+        }
+        return 0;
+    }
     friend ostream & operator << (ostream &out, const complexNumber &c);
     friend istream & operator >> (istream &in,  complexNumber &c);
 
